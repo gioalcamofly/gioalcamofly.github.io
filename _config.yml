@@ -61,19 +61,51 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Project Mi5
-        link: https://github.com/ProjectMi5
-        link_text: https://github.com/ProjectMi5
-        sub_title: Junior Developer
-        caption: January 2018 - August 2018
-        quote: >
-          Innovative education
-        description: | # this will include new lines to allow paragraphs
-            - Developed mobile and web applications using Ionic Framework
-            - Developed IoT applications using Arduino
-            - Worked with several kinds of hardware, as sensors, robots and 3d printers
-            - Managed innovative projects: proposals, pitchs, suggestions, resource management, analysis, goals, approaches...
-            - Used DevOps to improve efficiency
+        title: Open Ximdex Evolution
+        link: https://www.ximdex.com/
+        link_text: https://www.ximdex.com/
+        sub_title: Senior Backend Developer
+        caption: September 2021 - now
+        description: |
+          - Developed APIs using Python (Django and Flask)
+          - Developed AWS, Azure and IBM Watson clients using Symfony
+          - Used MySQL and Neo4j databases
+          - Developed a service aggregator for text semantics systems using Symfony
+          - Followed agile development
+          - Managed several projects (team, analysis, deployment, research, servers, client meetings...)
+          - Teached a junior developer
+          - Started TDD and DevOps on a project using Python unittest and Github Actions
+          - Used Nginx, Apache and Docker to deploy applications
+          - Developed front applications using Jinja2 templates and React
+      
+      - title: Light Painter
+        link: https://www.instagram.com/lightpainterteam/?hl=en
+        link_text: https://www.instagram.com/lightpainterteam/?hl=en
+        sub_title: Founder
+        caption: December 2017 - March 2020
+        description: |
+          - Created and developed a new technology using IoT
+          - Developed a mobile application using Ionic Framework
+          - Created electronic circuits
+          - Analyzed from business side: business opportunities, competitors, potential benefits and expenses, risks...
+          - Managed a team of 4 developers
+          - Pitched the project to possible investors
+        
+      - title: Open Canarias
+        link: https://www.opencanarias.com/
+        link_text: https://www.opencanarias.com/
+        sub_title: Full-Stack Developer
+        caption: May 2019 - September 2021
+        description: |
+          - Developed backend and frontend applications in Vue and Laravel
+          - Developed backend and frontend applications in JavaEE
+          - Managed databases in Oracle and MySQL
+          - Developed Android applications in Java and Kotlin
+          - Used DevOps
+          - Developed using microservices architecture
+          - Used and managed (lightly) Kubernetes containers
+          - Followed agile development
+          - Followed clean code and TDD conventions
 
       - title: ASTICAN
         link: https://www.astican.es/
@@ -85,40 +117,91 @@ content:
               - Developed in Oracle PL-SQL
               - Developed scripts to automate processes using Java and PHP
               - Developed web applications using JS and HTML5
+      
+      - title: Project Mi5
+        link: https://github.com/ProjectMi5
+        link_text: https://github.com/ProjectMi5
+        sub_title: Junior Developer (Internship)
+        caption: January 2018 - August 2018
+        quote: >
+          Innovative education
+        description: | # this will include new lines to allow paragraphs
+            - Developed mobile and web applications using Ionic Framework
+            - Developed IoT applications using Arduino
+            - Worked with several kinds of hardware, as sensors, robots and 3d printers
+            - Managed innovative projects: proposals, pitchs, suggestions, resource management, analysis, goals, approaches...
+            - Used DevOps to improve efficiency
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        title: Light Painter
+        link: https://www.instagram.com/lightpainterteam/?hl=en
+        link_text: https://www.instagram.com/lightpainterteam/?hl=en
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          We believe in your art
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          I started this project as my final project to pass university. It consisted on a IoT system that allows you to take light painting pictures automatically.
+          For that, I had to develop a mobile app and a hardware systems with motors and controllers. Both systems needed to be able to communicate with each other and, besides,
+          the hardware one had to be able to shoot the camera wirelessly. It is a really cool system, so if you are interested in knowing don't hesitate to ask me.
 
-  
+          After university, I continued developing it and even entered a pre-accelerator program (Explorer by Banco Santander) where I learnt the insights of a business and the lean startup
+          philosophy. Thanks to this program, I could pitch in front of possible investors and I even won a price for the Most Disruptive Technology in my island. 
+
+          Once the program finished, I reunited a little team of developers (software and hardware developers) to continue working on this project. We even went to Berlin to a major light painting event
+          to meet some possible clients and gain some feedback.
+
+          Unfortunately, I had to left this aside because I didn't have the needed time to spend.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
+      - layout: top-middle
+        title: Universidad de Las Palmas de Gran Canaria
+        caption: 2014 - 2018
         sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  - title: Skills
+    layout: list
+    content: 
+      - layout: top-middle
+        title: Programming Languages
+        sub_title: From more proficiency to less
+        description: |
+          Python, PHP, Java, Javascript, HTML5, C++, Kotlin, CSS
+
+      - title: Frameworks
+        sub_title: From more proficiency to less
+        description: |
+          Laravel, Flask, Vue, Django, Symfony, Ionic, Spring
+
+      - title: Databases
+        sub_title: From more proficiency to less
+        description: |
+          MySQL, Oracle, Neo4j
+
+      - title: Agile methodologies
+        description: |
+          Scrum, TDD, Clean Code, Kanban
+
+      - title: Systems and others
+        sub_title: From more proficiency to less
+        description: |
+          Git, Linux, Docker, ML, Apache, Nginx
+
+  - title: Strenghs and weaknesses
+    layout: list
+    content:
+      - layout: left
+        title: Strenghs
+        description: |
+          Quick learning, resourceful, team working, innovative, adaptable
+
+      - title: Weaknesses
+        description: |
+          Sometimes persistent on problems, shy
+      
 
   - title: A Little More About Me
     layout: text
