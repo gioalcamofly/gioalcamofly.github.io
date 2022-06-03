@@ -162,22 +162,26 @@ content:
         caption: 2014 - 2018
         sub_title: BSc Computer Science
 
+      - title: Universidad Nacional de Educacion a Distancia
+        caption: 2018- 2020 (half course)
+        sub_title: MsC Investigation in Artifitial Intelligence
+
   - title: Skills
     layout: list
     content: 
-      - layout: top-middle
+      - layout: left
         title: Programming Languages
-        sub_title: From more proficiency to less
+        caption: From more proficiency to less
         description: |
           Python, PHP, Java, Javascript, HTML5, C++, Kotlin, CSS
 
       - title: Frameworks
-        sub_title: From more proficiency to less
+        caption: From more proficiency to less
         description: |
           Laravel, Flask, Vue, Django, Symfony, Ionic, Spring
 
       - title: Databases
-        sub_title: From more proficiency to less
+        caption: From more proficiency to less
         description: |
           MySQL, Oracle, Neo4j
 
@@ -186,7 +190,7 @@ content:
           Scrum, TDD, Clean Code, Kanban
 
       - title: Systems and others
-        sub_title: From more proficiency to less
+        caption: From more proficiency to less
         description: |
           Git, Linux, Docker, ML, Apache, Nginx
 
@@ -200,20 +204,17 @@ content:
 
       - title: Weaknesses
         description: |
-          Sometimes persistent on problems, shy
+          Sometimes too persistent on problems, shy
       
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
+      - Photography
       - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - Sports
+      - And coffee, of course
 
 # Footer
 footer_show_references: true
