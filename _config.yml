@@ -162,7 +162,8 @@ content:
         caption: 2014 - 2018
         sub_title: BSc Computer Science
 
-      - title: Universidad Nacional de Educacion a Distancia
+      - layout: top-middle
+        title: Universidad Nacional de Educacion a Distancia
         caption: 2018- 2020 (half course)
         sub_title: MsC Investigation in Artifitial Intelligence
 
