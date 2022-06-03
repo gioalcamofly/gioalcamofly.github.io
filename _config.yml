@@ -9,7 +9,7 @@ version: 2
 name: Giovanni Cabrera Moreno
 title: Senior Backend Developer
 email: giovannicabreramoreno@gmail.com
-website: www.github.com/gioalcamofly
+website: https://gioalcamofly.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -57,6 +57,34 @@ about_content: | # this will include new lines to allow paragraphs
   My best skills are: <mark>Quick learning</mark> and <mark>bad jokes</mark>.
 
 content:
+- title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Project Mi5
+        link: https://github.com/ProjectMi5
+        link_text: https://github.com/ProjectMi5
+        sub_title: Junior Developer
+        caption: January 2018 - August 2018
+        quote: >
+          Innovative education
+        description: | # this will include new lines to allow paragraphs
+            - Developed mobile and web applications using Ionic Framework
+            - Developed IoT applications using Arduino
+            - Worked with several kinds of hardware, as sensors, robots and 3d printers
+            - Managed innovative projects: proposals, pitchs, suggestions, resource management, analysis, goals, approaches...
+            - Used DevOps to improve efficiency
+     - layout: left
+       title: ASTICAN
+       link: https://www.astican.es/
+       link_text: https://www.astican.es/
+       sub_title: Junior Developer
+       caption: September 2018 - May 2019
+       description: |
+            - Managed Oracle Databases
+            - Developed in Oracle PL-SQL
+            - Developed scripts to automate processes using Java and PHP
+            - Developed web applications using JS and HTML5
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -76,19 +104,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+  
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
