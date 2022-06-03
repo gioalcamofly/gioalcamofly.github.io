@@ -57,7 +57,7 @@ about_content: | # this will include new lines to allow paragraphs
   My best skills are: <mark>Quick learning</mark> and <mark>bad jokes</mark>.
 
 content:
-- title: Experience # Title for the section
+  - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -74,17 +74,17 @@ content:
             - Worked with several kinds of hardware, as sensors, robots and 3d printers
             - Managed innovative projects: proposals, pitchs, suggestions, resource management, analysis, goals, approaches...
             - Used DevOps to improve efficiency
-     - layout: left
-       title: ASTICAN
-       link: https://www.astican.es/
-       link_text: https://www.astican.es/
-       sub_title: Junior Developer
-       caption: September 2018 - May 2019
-       description: |
-            - Managed Oracle Databases
-            - Developed in Oracle PL-SQL
-            - Developed scripts to automate processes using Java and PHP
-            - Developed web applications using JS and HTML5
+
+      - title: ASTICAN
+        link: https://www.astican.es/
+        link_text: https://www.astican.es/
+        sub_title: Junior Developer
+        caption: September 2018 - May 2019
+        description: |
+              - Managed Oracle Databases
+              - Developed in Oracle PL-SQL
+              - Developed scripts to automate processes using Java and PHP
+              - Developed web applications using JS and HTML5
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
